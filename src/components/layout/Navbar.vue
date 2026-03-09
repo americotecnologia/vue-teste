@@ -1,13 +1,13 @@
-<script setup>
+﻿<script setup>
 import { useRoute } from 'vue-router';
 
 const route = useRoute();
 
 const menuItems = [
-  { label: 'Home', icon: '/imagens/house.png', route: '/app' },
-  { label: 'Reservar', icon: '/imagens/calendar-clock.png', route: '/app/reservas' },
-  { label: 'Studios', icon: '/imagens/land-plot.png', route: '/app/studios' },
-  { label: 'Perfil', icon: '/imagens/user-round.png', route: '/app/perfil' }
+  { label: 'Home', icon: '/images/house.png', route: '/app' },
+  { label: 'Reservar', icon: '/images/calendar-clock.png', route: '/app/reservas' },
+  { label: 'Studios', icon: '/images/land-plot.png', route: '/app/studios' },
+  { label: 'Perfil', icon: '/images/user-round.png', route: '/app/perfil' }
 ];
 </script>
 
@@ -27,3 +27,4 @@ const menuItems = [
     </div>
   </header>
 </template>
+
