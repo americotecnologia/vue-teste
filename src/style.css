@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+  /* Tailwind v4 base automatically applies but we set css layers to ensure PrimeVue compatibility */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7; /* Soft light background by default, will be adjusted for dark mode */
+}
+
+/* Custom CSS variables matching the BEON brand to be used with Tailwind */
+:root {
+  --primary-color: #101828; /* Dark elegant for high-end */
+  --accent-color: #f9fafb;
+}
+
+.dark {
+  background-color: #0f172a; /* BEON Dark mode base */
+  color: #f1f5f9;
+}
+
